@@ -13,8 +13,8 @@ Action | Keys
 **Switch** to the virtual desktop on the **right**<br>*(auto-cycles from the last to the first desktop)*|<kbd>Alt</kbd> + <kbd>l</kbd>
 **Create** a new virtual desktop|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>c</kbd>
 **Delete** the current virtual desktop|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>d</kbd>
-**Move** the current window to another desktop<br>|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd><br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>2</kbd><br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>0</kbd>
-**Move** the current window to the previous or the next desktop, then switch to it|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>h</kbd><br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>l</kbd>
+**Move** the current window to another desktop<br>|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd><br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>2</kbd><br>...<br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>0</kbd>
+**Move** the current window to the desktop on the left or the right, then switch to it|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>h</kbd><br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>l</kbd>
 Toggle **Maximize/Non-Maximize** focused window|<kbd>Alt</kbd> + <kbd>f</kbd>
 **Quit** focused window|<kbd>Alt</kbd> + <kbd>q</kbd>
 **Open** search|<kbd>Alt</kbd> + <kbd>d</kbd>
@@ -34,8 +34,8 @@ This script creates more convenient hotkeys for switching virtual desktops in Wi
 ## Running
 [Install AutoHotkey](https://autohotkey.com/download/) v1.1 or later, then run the `desktop_switcher.ahk` script (open with AutoHotkey if prompted). You can disable the switching animation in `Settings -> Accessibility -> Visual Effects` and toggling off `Animation effects`.
 
-### Notes about Windows 1809/1903≤ Updates
-This project relies partly on [VirtualDesktopAccessor.dll](https://github.com/Ciantic/VirtualDesktopAccessor) (for moving windows to other desktops). This binary is included in this repository for convenience, and was recently updated to work with the 1809/1903≤ updates. 
+### Notes about Windows 23H2 22631.3085 ≤ Updates
+This project relies partly on [VirtualDesktopAccessor.dll](https://github.com/Ciantic/VirtualDesktopAccessor) (for moving windows to other desktops). This binary is included in this repository for convenience, and was recently updated to work with the Windows 11 (requires at least 23H2 22631.3085, tested with 22631.3155) updates. 
 
 This may cause instability for users running older versions of Windows. If this is the case, [download the older DLL](https://github.com/pmb6tz/windows-desktop-switcher/blob/5289a0968179638f6e946a4cb69723510abd0d19/virtual-desktop-accessor.dll), rename it to `VirtualDesktopAccessor.dll`, and overwrite the previous DLL.
 
