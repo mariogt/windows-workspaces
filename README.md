@@ -16,6 +16,7 @@ Action | Keys
 **Move** the current window to another desktop<br>|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd><br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>2</kbd><br>...<br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>0</kbd>
 **Move** the current window to the desktop on the left or the right, then switch to it|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>h</kbd><br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>l</kbd>
 Toggle **Maximize/Non-Maximize** focused window|<kbd>Alt</kbd> + <kbd>f</kbd>
+Change Monitor Resolution and Refresh Rate (Change config for your monitor)|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>1</kbd><br><kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>2</kbd><br>...<br><kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>0</kbd>
 **Quit** focused window|<kbd>Alt</kbd> + <kbd>q</kbd>
 **Open** search|<kbd>Alt</kbd> + <kbd>d</kbd>
 
