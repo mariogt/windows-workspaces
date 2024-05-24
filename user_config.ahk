@@ -19,8 +19,12 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-; set up 10 workspaces on startup
+; Set up 10 workspaces on startup
 setupWorkspace(10)
+
+; Common keybinds
+^+1::ChangeResolution(32, 1920, 1080, 75)
+^+2::ChangeResolution(32, 1280, 720, 75)
 
 ; === INSTRUCTIONS ===
 ; Below is the alternate key configuration. Delete symbol ; in the beginning of the line to enable.
@@ -85,9 +89,6 @@ setupWorkspace(10)
 !f::minMaxActiveWindow()
 !+m::swapAll()
 
-!^1::ChangeResolution(32, 1920, 1080, 75)
-!^2::ChangeResolution(32, 1280, 720, 75)
-
 ; For keyboards with AltGr key
 <^>!1::switchDesktopByNumber(1)
 <^>!2::switchDesktopByNumber(2)
@@ -146,9 +147,6 @@ setupWorkspace(10)
 <^>!d::Send ^{Esc}
 <^>!f::minMaxActiveWindow()
 <^>!+m::swapAll()
-
-<^>!^1::ChangeResolution(32, 1920, 1080, 75)
-<^>!^2::ChangeResolution(32, 1280, 720, 75)
 
 ; === INSTRUCTIONS ===
 ; Below is the alternate key configuration. Delete symbol ; in the beginning of the line to enable.
@@ -212,6 +210,3 @@ setupWorkspace(10)
 ; #d::Send ^{Esc}
 ; #f::minMaxActiveWindow()
 ; #+m::swapAll()
-
-; #^1::ChangeResolution(32, 1920, 1080, 75)
-; #^2::ChangeResolution(32, 1280, 720, 75)
