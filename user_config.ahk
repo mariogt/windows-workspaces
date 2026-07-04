@@ -84,8 +84,8 @@ setupWorkspace(10)
 
 ; !^c::createVirtualDesktop()
 ; !^d::deleteVirtualDesktop()
-!q::!F4
-!d::Send ^{Esc}
+!q::Send("!{F4}")
+!d::Send("^{Esc}")
 !f::minMaxActiveWindow()
 !+m::swapAll()
 
@@ -143,8 +143,8 @@ setupWorkspace(10)
 
 ; <^>!^c::createVirtualDesktop()
 ; <^>!^d::deleteVirtualDesktop()
-<^>!q::Send !{F4}
-<^>!d::Send ^{Esc}
+<^>!q::Send("!{F4}")
+<^>!d::Send("^{Esc}")
 <^>!f::minMaxActiveWindow()
 <^>!+m::swapAll()
 
@@ -206,7 +206,7 @@ setupWorkspace(10)
 
 ; #^c::createVirtualDesktop()
 ; #^d::deleteVirtualDesktop()
-; #q::!F4
-; #d::Send ^{Esc}
+; #q::Send("!{F4}")
+; #d::Send("^{Esc}")
 ; #f::minMaxActiveWindow()
 ; #+m::swapAll()
