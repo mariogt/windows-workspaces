@@ -22,9 +22,9 @@
 ; Set up 10 workspaces on startup
 setupWorkspace(10)
 
-; Common keybinds
-^+1::ChangeResolution(32, 1920, 1080, 75)
-^+2::ChangeResolution(32, 1280, 720, 75)
+; ; Common keybinds
+; ^+1::ChangeResolution(32, 1920, 1080, 75)
+; ^+2::ChangeResolution(32, 1280, 720, 75)
 
 ; === INSTRUCTIONS ===
 ; Below is the alternate key configuration. Delete symbol ; in the beginning of the line to enable.
@@ -53,9 +53,9 @@ setupWorkspace(10)
 !Numpad9::switchDesktopByNumber(9)
 !Numpad0::switchDesktopByNumber(10)
 
-!l::switchDesktopToRight()
-!h::switchDesktopToLeft()
-!p::switchDesktopToLastOpened()
+; !l::switchDesktopToRight()
+; !h::switchDesktopToLeft()
+; !p::switchDesktopToLastOpened()
 
 !+1::MoveCurrentWindowToDesktop(1)
 !+2::MoveCurrentWindowToDesktop(2)
@@ -79,15 +79,16 @@ setupWorkspace(10)
 !+Numpad9::MoveCurrentWindowToDesktop(9)
 !+Numpad0::MoveCurrentWindowToDesktop(10)
 
-!+l::MoveCurrentWindowToRightDesktop()
-!+h::MoveCurrentWindowToLeftDesktop()
+; !+l::MoveCurrentWindowToRightDesktop()
+; !+h::MoveCurrentWindowToLeftDesktop()
 
 ; !^c::createVirtualDesktop()
 ; !^d::deleteVirtualDesktop()
-!q::Send("!{F4}")
-!d::Send("^{Esc}")
-!f::minMaxActiveWindow()
-!+m::swapAll()
+
+; !q::Send("!{F4}")
+; !d::Send("^{Esc}")
+; !f::minMaxActiveWindow()
+; !+m::swapAll()
 
 ; For keyboards with AltGr key
 <^>!1::switchDesktopByNumber(1)
@@ -112,9 +113,9 @@ setupWorkspace(10)
 <^>!Numpad9::switchDesktopByNumber(9)
 <^>!Numpad0::switchDesktopByNumber(10)
 
-<^>!l::switchDesktopToRight()
-<^>!h::switchDesktopToLeft()
-<^>!p::switchDesktopToLastOpened()
+; <^>!l::switchDesktopToRight()
+; <^>!h::switchDesktopToLeft()
+; <^>!p::switchDesktopToLastOpened()
 
 <^>!+1::MoveCurrentWindowToDesktop(1)
 <^>!+2::MoveCurrentWindowToDesktop(2)
@@ -138,15 +139,16 @@ setupWorkspace(10)
 <^>!+Numpad9::MoveCurrentWindowToDesktop(9)
 <^>!+Numpad0::MoveCurrentWindowToDesktop(10)
 
-<^>!+l::MoveCurrentWindowToRightDesktop()
-<^>!+h::MoveCurrentWindowToLeftDesktop()
+; <^>!+l::MoveCurrentWindowToRightDesktop()
+; <^>!+h::MoveCurrentWindowToLeftDesktop()
 
 ; <^>!^c::createVirtualDesktop()
 ; <^>!^d::deleteVirtualDesktop()
-<^>!q::Send("!{F4}")
-<^>!d::Send("^{Esc}")
-<^>!f::minMaxActiveWindow()
-<^>!+m::swapAll()
+
+; <^>!q::Send("!{F4}")
+; <^>!d::Send("^{Esc}")
+; <^>!f::minMaxActiveWindow()
+; <^>!+m::swapAll()
 
 ; === INSTRUCTIONS ===
 ; Below is the alternate key configuration. Delete symbol ; in the beginning of the line to enable.
