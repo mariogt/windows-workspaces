@@ -20,7 +20,7 @@
 ; ===========================
 
 ; Set up 10 workspaces on startup
-setupWorkspace(10)
+setupWorkspace(7)
 
 ; ; Common keybinds
 ; ^+1::ChangeResolution(32, 1920, 1080, 75)
