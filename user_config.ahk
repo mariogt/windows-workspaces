@@ -31,6 +31,7 @@ setupWorkspace(7)
 ; Note, that  !1  means "Alt + 1",  !^1  means "Alt + Ctrl + 1" and !+1  means "Alt + Shift + 1"
 ; Note, that  <^>! stands for AltGr key which some keyboards might have instead of a Right Alt key"
 ; === END OF INSTRUCTIONS ===
+
 !1::switchDesktopByNumber(1)
 !2::switchDesktopByNumber(2)
 !3::switchDesktopByNumber(3)
@@ -90,7 +91,7 @@ setupWorkspace(7)
 ; !f::minMaxActiveWindow()
 ; !+m::swapAll()
 
-; For keyboards with AltGr key
+; ; For keyboards with AltGr key
 ; <^>!1::switchDesktopByNumber(1)
 ; <^>!2::switchDesktopByNumber(2)
 ; <^>!3::switchDesktopByNumber(3)
@@ -117,16 +118,16 @@ setupWorkspace(7)
 ; <^>!h::switchDesktopToLeft()
 ; <^>!p::switchDesktopToLastOpened()
 
-<^>!1::MoveCurrentWindowToDesktop(1)
-<^>!2::MoveCurrentWindowToDesktop(2)
-<^>!4::MoveCurrentWindowToDesktop(4)
-<^>!5::MoveCurrentWindowToDesktop(5)
-<^>!3::MoveCurrentWindowToDesktop(3)
-<^>!6::MoveCurrentWindowToDesktop(6)
-<^>!7::MoveCurrentWindowToDesktop(7)
-<^>!8::MoveCurrentWindowToDesktop(8)
-<^>!9::MoveCurrentWindowToDesktop(9)
-<^>!0::MoveCurrentWindowToDesktop(10)
+<^>!+1::MoveCurrentWindowToDesktop(1)
+<^>!+2::MoveCurrentWindowToDesktop(2)
+<^>!+4::MoveCurrentWindowToDesktop(4)
+<^>!+5::MoveCurrentWindowToDesktop(5)
+<^>!+3::MoveCurrentWindowToDesktop(3)
+<^>!+6::MoveCurrentWindowToDesktop(6)
+<^>!+7::MoveCurrentWindowToDesktop(7)
+<^>!+8::MoveCurrentWindowToDesktop(8)
+<^>!+9::MoveCurrentWindowToDesktop(9)
+<^>!+0::MoveCurrentWindowToDesktop(10)
 
 ; <^>!+Numpad1::MoveCurrentWindowToDesktop(1)
 ; <^>!+Numpad2::MoveCurrentWindowToDesktop(2)
